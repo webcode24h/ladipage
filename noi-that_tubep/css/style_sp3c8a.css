@@ -1,0 +1,457 @@
+@charset "utf-8";
+@media screen and (max-width: 767px) {
+
+/*==============================================================================
+	basic style
+============================================================================= */
+
+html { font-size: 13.333333333vw;  }
+
+.inner { margin: 0 .3rem; width: auto; }
+
+.ds-pc { display: none; }
+
+.br-pc { display: none; }
+
+img { width: 100%; }
+
+#wrpper { width: 7.5rem; margin: 0 auto; }
+
+* { font-family: "游ゴシック体";}
+
+/*==============================================================================
+    header
+============================================================================= */
+
+.header .bg { padding: .2rem 0; }
+
+.header .content { margin: 0 .15rem 0 0;}
+
+.header .logo { width: 1.4rem; margin: 0 .9rem 0 0; }
+
+.header .icon  { width: .33rem; margin: 0 .05rem 0 0; }
+
+.header .num { font-size: .3rem; font-weight: bold;  line-height: 1.2; }
+
+.header .time  { font-size: .13rem; line-height: 1; text-align: center; }
+
+.header .cta-btn  { width: 2.15rem;}
+
+/*==============================================================================
+    hero
+============================================================================= */
+
+.hero .bg { width: 100%; margin: 0 auto; padding: 2.4rem 0 .7rem;}
+
+.hero-img { width: 6rem; margin: 0 0 0 auto;}
+
+.hero h1 { top: -1.4rem; left: .4rem; z-index: 2; font-size: .46rem; font-weight: bold; line-height: 1.5; }
+
+.hero h2 { top: -.6rem; left: .05rem; z-index: 1; color: #f4f4f4; font-size: 1.2rem; line-height: 1;}
+
+/*==============================================================================
+    sample
+============================================================================= */
+
+.sample .bg { width: 7.5rem; height: 2rem; padding: .35rem 0; background: url("../jpg/sample_img01.jpg") no-repeat 50.65% 0; background-size: cover;}
+
+.sample .txt-box { width: 6rem;  margin: 0 auto; padding: .2rem 0 .1rem; background: #fff; opacity: .95; }
+
+.sample h2 { color: #64994f; font-size: .36rem; font-weight: bold; text-align: center; }
+
+.sample p { font-size: .24rem; font-weight: bold; text-align: center; }
+
+/*==============================================================================
+    cta-area
+============================================================================= */
+
+.cta-area .bg { width: 100%; padding: .3rem 0 .25rem 0; background: #efefe8; }
+
+.cta-area .content { width: 4.7rem;}
+
+.cta-area .icon { width: .4rem; margin: 0 .05rem 0 0; }
+
+.cta-area .num { line-height: 0.5; font-size: .4rem; font-weight: bold;  font-family: 'arial black';}
+
+.cta-area .time { margin: .1rem 0 0 0rem; font-size: .16rem; text-align: center; }
+
+.cta-area .cta-btn { width: 4.6rem; margin: 0 0 .1rem 0; cursor: pointer;}
+
+/*==============================================================================
+    worry
+============================================================================= */
+.worry .bg { padding: .8rem 0 .15rem 0;}
+
+.worry h2 { color: #64994f; font-size: .4rem; font-weight: bold; text-align: center; letter-spacing: .03rem; }
+
+.worry .photo { margin: .5rem 0 0 0; text-align: center;}
+
+.worry .icon { width: 1.25rem; margin: .15rem auto 0; }    
+
+/*==============================================================================
+    solution
+============================================================================= */
+
+.solution .bg { width: 7.5rem ; padding: 1.2rem 0 1rem; background: url(../jpg/solution_img01_sp.jpg) no-repeat 50% 0 ; background-size: cover;}
+
+.solution .txt-box { top: 1.2rem; left: .4rem; width: 6.7rem; padding: .5rem 0 .4rem 0; background: #fff; opacity: .95;  }
+
+.solution h2 {  font-size: .44rem; font-weight: bold; text-align: center; letter-spacing: normal;}
+
+.solution h2 span { color: #64994f; font-size: .6rem;}
+
+.solution p { width: 5.5rem; margin: .3rem auto 0; font-size: .3rem; line-height: 1.5;}
+
+/*==============================================================================
+    reason共通
+============================================================================= */
+
+.reason-box { background: #efefe8;}
+
+.reason-box .content { width: 6.9rem; margin: 0 auto; }
+
+.reason-box .txt-box {  padding: .5rem 0 .5rem; background: #fff;}
+
+.reason-box h3 { width: 5.8rem; margin: 0 auto; font-size: .4rem; letter-spacing: normal;  }
+
+.reason-box .txt-box p { width: 5.8rem; margin: .2rem auto 0; font-size: .3rem;}
+
+.reason-box .icon { width: 1.55rem; top: -.35rem; left: -.3rem;}
+
+/*==============================================================================
+    reason01
+============================================================================= */
+
+.reason01 .bg  { padding: .9rem 0 .55rem;}
+
+.reason01 h2 { font-size: .4rem ; font-weight: bold; text-align: center;}
+
+.reason01 h2 span { color: #64994f; font-size: .6rem; }
+
+.reason01 .content { width: 6.9rem; margin: .6rem auto 0;}
+
+.reason-box .box { flex-direction: column;}
+
+.reason-box .img { order: 1;}
+
+.reason-box .txt-box { order: 2;}
+
+.reason-box .ttl-wrap { margin: 0 0 .6rem 0;}
+
+/*==============================================================================
+    reason03
+============================================================================= */
+.reason03 .bg { padding: .6rem 0 .7rem;}
+
+/*==============================================================================
+    kitchen共通
+============================================================================= */
+
+.kitchen-box .content { z-index: 1; background: #fff;}
+
+.kitchen-box .txt-box { width: 5rem; margin: 0 auto; padding: .5rem 0 .5rem;}
+
+.kitchen-box .txt01 { font-size: .32rem; color: #64994f; font-weight: bold;  }
+
+.kitchen-box .txt02 { font-size: .5rem; font-weight: bold;  }
+
+.kitchen-box .price  { font-size: .4rem; font-weight: bold; line-height: .9rem;}
+
+.kitchen-box .price { font-size: .6rem; }
+
+.kitchen-box .txt03 {margin:0 0 0 .2rem; font-size: .32rem; font-weight: bold;  }
+
+.kitchen-box .txt04 { margin: .1rem 0 0 0; font-size: .3rem;}
+
+.kitchen-box .icon { width: .78rem;}
+
+/*==============================================================================
+    kitchen01
+============================================================================= */
+
+.kitchen01 .bg { padding: .7rem 0 6.8rem 0;} 
+
+.kitchen-box .ttl01 { font-size: .4rem; font-weight: bold; text-align: center;  }
+
+.kitchen-box .ttl02 { color: #64994f; font-size: .55rem; font-weight: bold; text-align: center;  }
+
+.kitchen-box .ttl03 { margin: .2rem 0  .7rem; font-size: .3rem; font-weight: bold; text-align: center;}
+
+.kitchen-box .main-img01 { width: 100%; height: 5.5rem;  background: url(../jpg/kitchen01_img01.jpg) no-repeat 50% 0 / cover; }
+
+.kitchen-box .main-img02 { width: 100%; height: 5.5rem;  background: url(../jpg/kitchen02_img02.jpg) no-repeat 50% 0 / cover; }
+
+.kitchen-box .price-box01 {  bottom: -6rem; left: 8%;  z-index: 1; width: 6.35rem;  background: #fff; border: solid 5px #000; }
+
+.kitchen-box .price-box02 {  bottom: -6rem; left: 8%;  z-index: 1; width: 6.35rem;  background: #fff; border: solid 5px #000; }
+
+/*==============================================================================
+    kitchen02
+============================================================================= */
+
+.kitchen02 .bg { padding: 0 0 6.8rem;} 
+
+/*==============================================================================
+review共通
+============================================================================= */
+
+.review-box .before-img { width: 1.4rem; top: -.2rem; left: -.2rem;}
+
+.review01 .img-main { margin: .75rem 0 0;}
+
+.review-box .cook { color: #64994f; font-size: .38rem; font-weight: bold;}
+
+.review-box .cook span { font-size: .3rem;}
+
+.review-box .txt-box .flex { flex-direction: column;}
+
+.review-box .arrow { width: .98rem; top: -.4rem; left: .9rem;}
+
+.review-box .after { width: 1.83rem; top: -.25rem; right: -.1rem;}
+
+.review-box .txt-box { width: 5.8rem; margin: .5rem auto 0; }
+
+.review-box .txt01 { margin: .3rem 0 0 ;  font-size: .3rem; line-height: 1.5;}
+.review-box .txt01 span { font-size: .3rem;}
+
+.review-box .comment { margin: .3rem 0 0 ;  font-size: .3rem; line-height: 1.5;}
+
+.staff { display: inline-block; margin: .3rem 0 0; padding: .02rem .1rem; background: #64994f; color: #fff; font-size: .26rem !important; font-weight: bold;  text-align: center;}
+
+.table-box { width: 5.8rem; margin: .3rem 0 0 ; background: #f0f5ed; padding: .5rem;}
+
+.review-box .about {  margin: 0 auto ; line-height: 2; font-size: .28rem; }
+
+.review-box .data {  padding: 0 0 0 .3rem; font-weight: bold; line-height: 2;  font-size: .28rem; }
+
+
+
+
+/*==============================================================================
+review01
+============================================================================= */
+
+.review01 .bg { padding: .9rem 0 1.2rem;}
+
+.review01 .container { width: 6.9rem; margin: .8rem auto 0 ;}
+
+.review01 h2 { color: #64994f; font-size: .7rem; font-weight: bold; text-align: center; }
+
+.review01 .ttl-box p { font-size: .3rem; font-weight: bold; text-align: center; }
+
+/*==============================================================================
+    review02
+============================================================================= */
+
+.review02 .bg { padding: 0 0 1.2rem;}
+
+.review02 .container { width: 6.9rem; margin: 0 auto ;}
+
+
+/*==============================================================================
+    flow共通
+============================================================================= */
+
+.flow-wrap { background: #ecece5;}
+
+.flow-wrap .txt-box { flex-direction: column; margin: 0 0 0 1.6rem;}
+
+.flow-wrap .num { color: #64994f; font-size: .36rem; font-weight: bold;}
+
+.flow-wrap .sub-ttl { font-size: .4rem; line-height: 1; font-weight: bold;}
+
+.flow-wrap .txt { margin: .4rem 0 0; font-size: .3rem; line-height: 1.5;}
+
+.flow-wrap .photo { position: absolute; left: .5rem; width: 1.25rem;}
+
+.flow-wrap .container { width: 6.3rem; margin: 0 auto;}
+
+.flow-wrap .step { margin: 0 0 0 .4rem;}
+
+.flow-wrap .txt01 { color: #64994f; font-size: .4rem; font-weight: bold;}
+
+.flow-wrap .txt02 { font-size: .4rem; font-weight: bold; line-height: 1;}
+
+.flow-wrap .txt03 { margin: .2rem 0 0; font-size: .29rem;  line-height: 1.5;}
+
+.flow-wrap { padding: .5rem 0 0 ; background: #efefe5;}
+
+.flow-wrap .photo { width: 1.28rem;}
+
+/*==============================================================================
+    flow01
+============================================================================= */
+.flow01 .content { margin: .5rem 0 0;}
+
+.flow01 .ttl-box p { color: #64994f; font-size: .28rem; font-weight: bold; text-align: center;}
+
+.flow01 .ttl-box h2 { font-size: .6rem; font-weight: bold; text-align: center;}
+
+.flow01 .bg {  padding: 1rem 0 0;}
+
+/*==============================================================================
+    flow06
+============================================================================= */
+
+.flow06 .bg { padding: .5rem 0 .7rem;}
+
+/*==============================================================================
+    renovation共通
+============================================================================= */
+
+.renovation-box .renovation-item { width: 3.45rem;}
+
+.renovation-box h3 { height: 1rem; margin: .15rem 0 0; color: #64994f; font-size: .34rem; font-weight: bold; text-align: center; letter-spacing: normal;}
+
+.renovation-box .txt { width: 3.3rem; margin: .1rem 0 0 ; font-size: .29rem;}
+
+.renovation-box .photo { width: 2.8rem; margin: 0 auto; text-align: center;}
+
+/*==============================================================================
+    renovation01
+============================================================================= */
+
+.renovation01 .bg { padding: .8rem 0 0;}
+
+.renovation01 h2 { color: #64994f; font-size: .5rem; font-weight: bold; text-align: center;}
+
+.renovation-item { margin: .3rem 0  0; padding: .15rem;}
+
+/*==============================================================================
+    renovation03
+============================================================================= */
+
+.renovation02 .bg { padding: 0 0 1rem;}
+
+/*==============================================================================
+    price共通
+============================================================================= */
+
+.price-box  { background: #efefe5;}
+
+.price-box table { width: 6.9rem; margin: 0 auto; border-collapse: separate; border-spacing: 0 .1rem; }
+
+.price-box th { width: 1.7rem;  font-size: .3rem; vertical-align: middle; background: #fff;}
+
+.price-box .txt01 { width: 5.2rem; padding: .3rem .5rem .2rem .4rem; background: #fff; color: #64994f; font-size: .3rem ; font-weight: bold; line-height: 1.5; vertical-align: middle;  }
+
+.price-box .txt02 { width: 5.2rem; padding: .3rem 0 .2rem .4rem; background: #fff; font-size: .3rem ; line-height: 1.5; vertical-align: middle;  }
+
+.price-box .txt03 { width: 5.2rem; padding: .4rem 0 .4rem .4rem; background: #fff; color: #64994f; font-size: .6rem ; font-weight: bold; line-height: 1.5; vertical-align: middle;  }
+
+.price01 .container { flex-direction: column;}
+/*==============================================================================
+    price01
+============================================================================= */
+
+.price01 .bg { padding: .9rem 0 .8rem; }
+
+.price01 .container { flex-direction: column;}
+
+.price01 .content { margin: .4rem auto 0;}
+
+.price-box .annotation { width: 5.8rem; margin-right:  auto; font-size: .26rem; text-align: left;}
+
+.price-box .ttl01 { color: #64994f; font-size: .28rem; font-weight: bold; text-align: center;}
+
+.price01 h2 { font-size: .66rem; font-weight: bold; text-align: center;}
+
+.light { width: 6.9rem ; height: 1.1rem; }
+
+.light td { background: #64994f; color: #fff; font-size: .4rem; font-weight: bold; text-align: center;  vertical-align: middle;}
+
+/*==============================================================================
+    price02
+============================================================================= */
+
+.standard {  width: 6.9rem ; height: 1.1rem; }
+
+.standard td { background: #4c7f38; color: #fff; font-size: .4rem; font-weight: bold; text-align: center;  vertical-align: middle;}
+
+/*==============================================================================
+    price03
+============================================================================= */
+
+.price03 .bg { padding: .4rem 0 .7rem;}
+
+.premium {  width: 6.9rem ; height: 1.1rem; }
+
+.premium td { background: #386327; color: #fff; font-size: .4rem; font-weight: bold; text-align: center;  vertical-align: middle;}
+
+/*==============================================================================
+    faq共通
+============================================================================= */
+
+.faq-box .txt01 { width: 6rem; font-size: .3rem; line-height: 1.5;}
+
+.question p { font-size: .30rem; font-weight: bold;}
+
+.answer { margin: .20rem 0 0;}
+
+.q-icon  { width: .5rem; margin: 0 .10rem 0 0;}
+
+.a-icon  { width: .5rem; margin: 0 .20rem 0 0;}
+
+.a-icon img  { width: 100%; }
+
+.question p { font-size: .34rem;}
+
+/*==============================================================================
+    faq01
+============================================================================= */
+
+.faq01 .bg { padding: .60rem 0 0;}
+
+.faq01 .ttl-box p { color: #64994f; font-size: .28rem; font-family: 'arial black'; text-align: center;}
+
+.faq01 .ttl-box h2 {  font-size: .55rem; font-weight: bold; text-align: center;}
+
+.faq-item { width: 6.9rem; margin: .40rem 0 0; padding: .10rem;}
+
+.faq-list  { width: 6.9rem; padding: .10rem 0 0 ; flex-direction: column;}
+
+/*==============================================================================
+    faq02
+============================================================================= */
+
+/*==============================================================================
+    faq03
+============================================================================= */
+
+.faq03 .bg { padding: 0 0 .8rem;}
+
+
+/*==============================================================================
+    company
+============================================================================= */
+
+.company .bg { padding: .9rem 0 .3rem; background: #efefe5;}
+
+.company .ttl-box p { color: #64994f; font-size: .28rem; font-weight: bold; text-align: center;}
+
+.company .ttl-box h2 { margin: .1rem 0 0; font-size: .66rem; font-weight: bold; text-align: center;}
+
+.company .content { margin: .4rem 0 0;}
+
+.company .flex { margin: .1rem 0 0; }
+
+.company dl { background: #fff; margin: .5rem 0 0;}
+
+.company dt { width: 1.85rem; padding: .3rem 0 .3rem .3rem;  font-size: .3rem ; font-weight: bold;}
+
+.company dd { width: 5.05rem; padding: .3rem 0 .3rem .3rem;  font-size: .3rem; }
+
+.company .photo { margin: .3rem 0 0 ;}
+
+.company .container { flex-direction: column;}
+
+.company .img-box { margin: .3rem 0 0;}
+
+/*==============================================================================
+    footer
+============================================================================= */
+
+.footer p { padding: .15rem 0 ; font-size: .26rem; line-height: 1.5; text-align: center;}
+
+
+}

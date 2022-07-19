@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------
+    reset
+----------------------------------------------------------*/
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0}
+
+/*----------------------------------------------------------
+    initiate
+----------------------------------------------------------*/
+html { font-size: 3.125vw;}
+body { font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", "MS Gothic", sans-serif; color: #333333; letter-spacing: 0px; -webkit-text-size-adjust: none;}
+table { font-size:inherit;font:100%;}
+pre, code, kbd, samp, tt { font-family: monospace; *font-size: 100%; font: 115% monospace; line-height: 150%;}
+input,textarea,select { font-family:inherit; font-size:inherit; font-weight:inherit;}
+h1,h2,h3,h4,h5,h6 { font-weight:normal;}
+ul,ol,li{list-style: none;}
+img { max-width :100%!important;vertical-align: bottom;}
+p { line-height: 1.6;}
+a { color:#0000ff; text-decoration:underline; -webkit-touch-callout:none;  -webkit-text-size-adjust:none; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-user-select:none;}
+.clearfix:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+.inner { margin: 0 1.5rem;}
+.fixed { position:fixed; left:0; right:0; top:0; z-index:9999; background:#fff; margin:auto;}
+.cover { -webkit-background-size: cover!important; background-size: cover!important;}
+#wrapper { background: #fff; position: relative; margin: 0 auto;}
+.pr0 { padding-right: 0 !important }
+
+
+/*
+ * flex box
+ */
+.flex { display: flex; display: -webkit-flex; }
+.align-center { align-items: center; }
+
+.f-wrap { flex-wrap: wrap; -ms-flex-wrap: wrap; -moz-flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+
+.f-between { justify-content: space-between; -webkit-justify-content: space-between; }
+
+.flex-list { display: flex; display: -webkit-flex; flex-wrap: wrap; -ms-flex-wrap: wrap; -moz-flex-wrap: wrap; -webkit-flex-wrap: wrap; justify-content: space-between; -webkit-justify-content: space-between; }
+
+/*----------------------------------------------------------
+    Mediaquery Mobile
+----------------------------------------------------------*/
+@media (min-width: 640px) and (max-width : 767px) {
+img { width :100%; max-width: auto: }
+}
+/*----------------------------------------------------------
+    Mediaquary Tablet PC
+----------------------------------------------------------*/
+@media (min-width: 768px) {
+html {font-size: 125%; /* sets the base font to 20px for easier math */}
+.inner { margin: 0 auto; padding: 0; max-width: 1000px; position: relative; }
+}

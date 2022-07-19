@@ -1,0 +1,414 @@
+@charset "utf-8";
+@media screen and (min-width: 768px) {
+
+.ds-sp { display: none; }
+.br-sp {display: none; }
+
+/*==============================================================================
+    header
+============================================================================= */
+.header .bg { padding: 20px 0; }
+
+.header .logo { width: 114px; margin: 5px 0 0; }
+
+.header .icon { width: 28px; margin: 3px 7px 0 0; }
+
+.header .content { width: 220px; margin: 0 10px 0 auto; text-align: center;}
+
+.header .num { line-height: 1.1; font-weight: bold; font-size: 23px;  font-family: 'arial black';}
+
+.header .time { font-size: 11px; text-align: center;}
+
+.header .cta-btn{ width: 215px;  cursor: pointer; }
+
+/*==============================================================================
+    hero
+============================================================================= */
+.hero .bg { padding: 20px 0 50px;}
+
+.hero .inner { width: 1150px;}
+
+.hero h1 { top: 100px; left: 20px; z-index: 2;  line-height: 1.7; font-weight: bold; font-size: 40px; }
+
+.hero h2 { top: 200px; left: 75px; z-index: 1;  color: #f4f4f4; line-height: 1; font-weight: bold; font-size: 100px;  }
+
+.hero-img { margin:0 0 0 370px; }
+
+/*==============================================================================
+    sample
+============================================================================= */
+
+.sample .bg { width: 100%; height: 190px; padding: 35px 0; background: url('../jpg/sample_img01.jpg'); background-size: cover; }
+
+.sample .txt-box { width: 800px;  margin: 0 auto; padding: 20px 0 10px; background: #fff; opacity: .95; }
+
+.sample h2 { color: #64994f; font-size:36px; font-weight: bold; text-align: center; }
+
+.sample p { font-size: 24px; font-weight: bold; text-align: center; }
+
+/*==============================================================================
+    cta-area
+============================================================================= */
+.cta-area .bg { width: 100%; padding: 30px 0 25px 0; background: #efefe8; }
+
+.cta-area .content { width: 470px;}
+
+.cta-area .icon { width: 45px; margin: 0 5px 0 0; }
+
+.cta-area .num { line-height: 0.5; font-size: 50px; font-weight: bold;  font-family: 'arial black';}
+
+.cta-area .time { margin: 15px 0 0; text-align: center; font-size: 16px; }
+
+.cta-area .cta-btn { cursor: pointer;}
+
+/*==============================================================================
+    worry
+============================================================================= */
+.worry .bg { padding: 80px 0 20px 0;}
+
+.worry h2 { color: #64994f; font-weight: bold; font-size: 40px; text-align: center; letter-spacing: 5px;}
+
+.worry .photo { width: 1000px; margin: 50px auto 0;}
+
+.worry .icon { width: 130px; margin: 30px auto 0; }
+
+/*==============================================================================
+    solution
+============================================================================= */
+
+.solution .bg { height: 550px; padding: 100px 0; background: url(../jpg/solution_img01_pc.jpg) no-repeat 50% 0 ; background-size: cover;}
+
+.solution .txt-box { width: 760px;  margin: auto; padding: 50px 0 50px; background: #fff; }
+
+.solution h2 { font-weight: bold; font-size: 42px; text-align: center;}
+
+.solution span { font-weight: bold ; font-size: 60px; color: #64994f; }
+
+.solution p { width: 600px; margin: 10px auto 0; font-size: 20px;  }
+
+/*==============================================================================
+    reason（共通） 
+============================================================================= */
+
+.reason-box { background: #efefe8; }
+
+.reason-box .txt-box { width: 500px;  background: #fff; border-radius: 5px 0 0 5px;}
+
+.reason-box .icon { top: -20px; right: -30px;}
+
+.reason-box h3 { width: 385px; margin: 50px auto 0 auto; font-size: 24px; font-weight: bold;  }
+
+.reason-box p { width: 385px; margin: 35px auto 50px auto; font-size: 19px; }
+
+/*==============================================================================
+    reason01
+============================================================================= */
+
+.reason01 .bg { padding: 80px 0 30px 0; }
+
+.reason01 h2 {  font-size: 40px; font-weight: bold; text-align: center;}
+
+.reason01 span { color: #64994f; line-height: 1.2; font-size: 80px; }
+
+.reason01 .box { margin: 50px 0 0;}
+
+.reason01 .content { margin: 50px 0 0;}
+
+/*==============================================================================
+    reason03
+============================================================================= */
+
+.reason03 .bg { padding: 30px 0 80px 0;}
+
+/*==============================================================================
+    kitchen共通
+============================================================================= */
+
+.kitchen-box .txt-box { width: 420px; position: relative; margin: 40px auto 40px 50px ; background: #fff;  }
+
+.kitchen-box .txt01 { color: #64994f; font-size: 28px; font-weight: bold; }
+
+.kitchen-box .txt02 { font-size: 28px; font-weight: bold;}
+
+.kitchen-box .txt02  { font-size: 50px; font-weight: bold; }
+
+.kitchen-box .icon { width: 55px; }
+
+.kitchen-box .txt03 { margin:0 0 0 10px; font-size: 23px; font-weight: bold; }
+
+.kitchen-box  .txt04 { line-height: 1.8; font-size: 16px; }
+
+/*==============================================================================
+    kitchen01
+============================================================================= */
+.kitchen01 .bg { padding: 70px 0 40px 0;} 
+
+.kitchen01 .ttl01 { font-size: 40px; font-weight: bold; text-align: center;  }
+
+.kitchen01 .ttl02 { color: #64994f; font-size: 65px; font-weight: bold; text-align: center;  }
+
+.kitchen01 .ttl03 { margin: 20px 0  0; font-size: 24px; font-weight: bold; text-align: center;}
+
+.kitchen01 .main-img01 { width: 75%; height: 550px; margin: 50px 0 0 0; background: url(../jpg/kitchen01_img01.jpg) no-repeat 50% 0 ; }
+
+.kitchen01 .price-box01 {  top: 70px; right: -110px;  z-index: 1; width: 535px;  background: #fff; border: solid 5px #000; }
+
+/*==============================================================================
+    kitchen02
+============================================================================= */
+
+.kitchen02 .bg { padding: 0 0 100px 0;}
+
+.kitchen02 .main-img02 { width: 75%; height: 550px; margin: 0 0 0 auto; background: url(../jpg/kitchen02_img02.jpg) no-repeat 50% 0 ; }
+
+.kitchen02 .price-box02 { top: 70px; left: -110px; z-index: 1; width: 535px;  background: #fff;  border: solid 5px #000;}
+
+/* .kitchen02 .price-box02::after { position : absolute; top: -18px; right: -15px; z-index: 2; width: 100%; height: 100%; border: #000 solid 5px;  content: "";} */
+
+/*==============================================================================
+    review共通
+============================================================================= */
+
+.before-img { top: -40px; left: -60px;}
+
+.arrow { top: -15px; left: 180px;}
+
+.after { top: 25px; right: -25px; }
+
+.review-box .content { margin: 30px 0 0;}
+
+.review-box .txt-box { width :880px; margin: 0 auto;}
+
+.cook { color: #64994f; font-size: 30px; font-weight: bold; }
+
+.review-box .flex { margin: 30px 0 0;}
+
+.review-box .txt-wrap { width: 530px; margin: 10px 0 0 ;}
+
+.review-box .txt-wrap p { font-size: 18px;}
+
+.comment { font-size: 16px; margin: 10px 0 0;}
+
+.table-box { width: 320px; background: #f0f5ed; padding: 20px;}
+
+.review-box .about { width: 120px; margin: 0 auto ; line-height: 2; font-size: 16px; text-align: center; }
+
+.review-box .data { width: 200px; padding: 0 0 0 10px; font-weight: bold; line-height: 2;  font-size: 16px; }
+
+.staff { display: inline-block; margin: 20px 0 0px; padding: 2px 10px; background: #64994f; color: #fff; font-size: 16px !important; font-weight: bold;  text-align: center;}
+
+/*==============================================================================
+    review01
+============================================================================= */
+
+.review01 .bg { padding: 90px 0 100px;}
+
+.review01 .ttl-box h2 { color: #64994f; font-size: 70px; font-weight: bold;  text-align: center; }
+
+.review01 .ttl-box p { font-size: 24px; font-weight: bold; text-align: center;}
+
+.review01 .relative { margin: 60px auto 0; }
+
+/*==============================================================================
+    review02
+============================================================================= */
+
+.review02 .bg { padding: 0 0 80px;}
+
+.review02 .img-box { margin: 100px auto 0;}
+
+/*==============================================================================
+    flow共通
+============================================================================= */
+
+.flow-wrap  { background: #efefe8; padding: 30px 0 0;}
+
+.flow-wrap .photo { width: 160px;}
+
+.step { width: 790px; margin: 20px 0 20px 40px;}
+
+.step .num {  margin: 0 30px 0 0; color: #64994f;  font-size: 34px;  font-family: 'arial black'; }
+
+.step .sub-ttl {  font-size: 34px; font-weight: bold; }
+
+.step .txt { width: 790px; margin: 10px 0 0 ; font-size: 18px;}
+
+/*==============================================================================
+    flow01
+============================================================================= */
+
+.flow01 .bg  { padding: 100px 0 0;}
+
+.flow01 .ttl-box p { color: #64994f; font-size: 24px; font-weight: bold; font-family: 'arial black'; text-align: center; }
+
+.flow01 .ttl-box h2 { font-size: 50px; font-weight: bold; text-align: center;}
+
+.flow01 .content { margin: 50px 0 0;}
+
+/*==============================================================================
+    flow06
+============================================================================= */
+
+.flow06 .bg { padding: 30px 0 100px;}
+
+/*==============================================================================
+    renovation共通 
+============================================================================= */
+
+.renovation-box .img-box { width: 300px; text-align: center;}
+
+.renovation-box h3 { margin: 15px 0 0; color: #64994f; font-size: 24px; font-weight: bold;  }
+
+.renovation-box .txt { margin: 15px 0 0; font-size: 16px; text-align: left;} 
+
+.renovation-item { margin: 30px 6.6px 0; padding: 10px 10px 10px;}
+
+.renovation-list { width: 690px; margin: 0 auto ;  justify-content: flex-start; }
+
+/*==============================================================================
+    renovation01
+============================================================================= */
+
+.renovation01 .bg  { padding: 80px 0 0;}
+
+.renovation-box h2 { color: #64994f; font-size: 50px; font-weight: bold; text-align: center;}
+
+/*==============================================================================
+    renovation02
+============================================================================= */
+
+.renovation02 .bg { padding: 0 0 80px 0;}
+
+
+/*==============================================================================
+    price
+============================================================================= */
+
+.price-box  { background: #efefe5;}
+
+.price-box table { width: 330px; margin: 0 auto; border-collapse: separate; border-spacing: 0 1px; }
+
+.price-box th { width: 100px;  font-size: 16px; vertical-align: middle; background: #fff;}
+
+.price-box .txt01 { width: 200px; padding: 10px; background: #fff; color: #64994f; font-size: 16px ; font-weight: bold; line-height: 1.5; vertical-align: middle;  }
+
+.price-box .txt02 { width: 200px; padding: 10px ;background: #fff; font-size: 16px ; line-height: 1.5; vertical-align: middle;  }
+
+.price-box .txt03 { width: 200px; padding: 10px; background: #fff; color: #64994f; font-size: 30px ; font-weight: bold; line-height: 1.5; vertical-align: middle;  }
+
+/*==============================================================================
+    price01
+============================================================================= */
+
+.price01 .bg { padding: 65px 0 80px; }
+
+.price01 .container { justify-content: space-between; margin: 50px 0 0;}
+
+.price-box .annotation { margin: 10px 0 0; font-size: 14px; text-align: right;}
+
+.price-box .ttl01 { color: #64994f; font-size: 24px; font-weight: bold; text-align: center;}
+
+.price01 h2 { font-size: 55px; font-weight: bold; text-align: center;}
+
+.light { width: 6.9rem ; height: 1.1rem; }
+
+.light td { background: #64994f; color: #fff; font-size: 25px; padding: 20px 0; font-weight: bold; text-align: center;  vertical-align: middle;}
+
+/*==============================================================================
+    price02
+============================================================================= */
+
+.standard {  width: 6.9rem ; height: 1.1rem; }
+
+.standard td { background: #4c7f38; color: #fff; padding: 20px 0; font-size: 25px; font-weight: bold; text-align: center;  vertical-align: middle;}
+
+
+/*==============================================================================
+    price03
+============================================================================= */
+
+.price03 .bg { padding: .4rem 0 .7rem;}
+
+.premium {  width: 6.9rem ; height: 1.1rem; }
+
+.premium td { background: #386327; color: #fff; padding: 20px 0; font-size: 25px; font-weight: bold; text-align: center;  vertical-align: middle;}
+
+
+
+
+
+/*==============================================================================
+    faq共通
+============================================================================= */
+
+.faq-box .faq-item { width: 460px; }
+
+.faq-box .txt01 { font-size: 16px;}
+
+.question p { width: 388px; font-size: 30px; font-weight: bold;}
+
+.answer { margin: 20px 0 0;}
+
+.answer p {width: 378px;}
+
+.q-icon  { width: 42px; margin: 0 10px 0 0;}
+
+.a-icon  { width: 42px; margin: 0 20px 0 0;}
+
+/*==============================================================================
+    faq01
+============================================================================= */
+
+.faq01 .bg { padding: 60px 0 0;}
+
+.faq01 .ttl-box p { color: #64994f; font-size: 24px; font-family: 'arial black'; text-align: center;}
+
+.faq01 .ttl-box h2 {  font-size: 55px; font-weight: bold; text-align: center;}
+
+.faq-item { margin: 40px 0 0; padding: 10px;}
+
+.faq-list  { padding: 10px 0 0 ;}
+
+/*==============================================================================
+    faq02
+============================================================================= */
+
+/*==============================================================================
+    faq03
+============================================================================= */
+
+.faq03 .bg { padding: 0 0 80px;}
+
+/*==============================================================================
+    company
+============================================================================= */
+
+.company .bg { padding: 60px 0 80px 0; background: #ecece5;}
+
+.company .ttl-box p { color: #64994f; font-size: 24px; font-family: 'arial black'; text-align: center;}
+
+.company .ttl-box h2 { font-size: 55px; font-weight: bold; text-align: center;}
+
+.company .container { margin: 30px 0 0;}
+
+.company dl { width: 490px;}
+
+.company .top-content { background: #fff;}
+
+.company .content { background: #fff; margin: 10px 0 0; }
+
+.company dt { width: 130px; padding: 0 10px;  font-size: 18px; font-weight: bold; text-align: center; }
+
+.company dd { width: 360px; padding: 15px 10px 15px 20px;  font-size: 18px;  }
+
+
+/*==============================================================================
+    footer
+============================================================================= */
+
+.footer .bg {padding: 10px 0;}
+
+.footer p { font-size: 13px; font-weight: bold; line-height: 2.6; text-align: center;}
+
+
+}
