@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 01 Aug 2022 03:47:51 at https://builder.simplepage.vn/saffron-voi-giac-ngu/ https://builder.simplepage.vn/thao-moc-giam-can-cenly/ https://builder.simplepage.vn/dong-trung-ha-thao-ogafa/ https://builder.simplepage.vn/mau-ldp-tpcn-05/ https://builder.simplepage.vn/kem-tri-nam-happy/ https://builder.simplepage.vn/mau-ladingpage-dong-y/ https://builder.simplepage.vn/mau-landingpage-dong-y-02/ https://builder.simplepage.vn/mau-ldp-tpcn-0003/ https://builder.simplepage.vn/mau-ldp-gel-tan-mo-0001/ https://builder.simplepage.vn/mau-ldp-my-pham-10/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN4%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  -%l "en, *" https://builder.simplepage.vn/saffron-voi-giac-ngu/ https://builder.simplepage.vn/thao-moc-giam-can-cenly/ https://builder.simplepage.vn/dong-trung-ha-thao-ogafa/ https://builder.simplepage.vn/mau-ldp-tpcn-05/ https://builder.simplepage.vn/kem-tri-nam-happy/ https://builder.simplepage.vn/mau-ladingpage-dong-y/ https://builder.simplepage.vn/mau-landingpage-dong-y-02/ https://builder.simplepage.vn/mau-ldp-tpcn-0003/ https://builder.simplepage.vn/mau-ldp-gel-tan-mo-0001/ https://builder.simplepage.vn/mau-ldp-my-pham-10/ -O1 "C:\Users\Chinhdayroi\Desktop\ladipage\TPCN" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:48:17	Warning: 	Note: due to https://builder.simplepage.vn remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+03:48:56	Warning: 	file not stored in cache due to bogus state (broken size, expected 1720167 got 1673536): https://simpleweb1.cdn.vccloud.vn/wp-content/uploads/2021/07/Bản-sao-của-Neutral-Minimalist-Home-Decor-Interior-Facebook-Cover.png
+03:50:27	Warning: 	Retry after error -4 (Incorrect length (1673536 Bytes, 1720167 expected)) at link https://simpleweb1.cdn.vccloud.vn/wp-content/uploads/2021/07/Bản-sao-của-Neutral-Minimalist-Home-Decor-Interior-Facebook-Cover.png (from https://builder.simplepage.vn/thao-moc-giam-can-cenly/)
+03:50:42	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2020/07/CAM-Káº¾T-2.png (from https://builder.simplepage.vn/mau-landingpage-dong-y-02/)
+03:50:47	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/05/Máº«u-landing-page-má»¹-pháº©m-10.png (from https://builder.simplepage.vn/mau-ldp-my-pham-10/)
+03:50:47	Error: 	Can not remove old file /wp-content/uploads/2021/07/Bản-sao-của-Neutral-Minimalist-Home-Decor-Interior-Facebook-Cover.png
+03:50:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://simpleweb1.cdn.vccloud.vn/wp-content/uploads/2021/09/post.png (from https://connect.facebook.net/en_US/fbevents.js)
+03:50:47	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2020/07/ná»n.jpg (from https://builder.simplepage.vn/wp-content/cache/min/1/64264a2ca794fd6374ecb7f96cc78dda.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 56 seconds : 282 links scanned, 275 files written (84311872 bytes overall) [69969301 bytes received at 397552 bytes/sec], 20875578 bytes transferred using HTTP compression in 38 files, ratio 22%, 6.9 requests per connection
+(4 errors, 4 warnings, 0 messages)
