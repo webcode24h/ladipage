@@ -1,0 +1,347 @@
+.couponwheel_ios_stop_scrolling {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+.couponwheel_popup_shadow {
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 100000;
+	display: none;
+}
+.couponwheel_popup {
+	all: initial;
+	font-family: inherit;
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	max-width: 54em;
+	z-index: 100001;
+	box-shadow: .5em 0 2em rgba(0,0,0,.5);
+	color: white;
+	overflow-y: auto;
+	display: none;
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+}
+.couponwheel_form {
+	font-size: 1.05em;
+	line-height: 1.1em;
+	padding: 1.5em;
+	margin: 0;
+}
+.couponwheel_popup_heading_text {
+	font-weight: 900;
+	text-shadow: .05em .05em .06em rgba(0,0,0,.66);
+	font-size: 1.5em;
+	margin-top: .5em;
+	margin-bottom: 1em;
+	line-height: 1.1em;
+}
+.couponwheel_popup_main_text
+{
+	margin: 1em 0;
+}
+.couponwheel_popup_form_error_text {
+	font-weight: 600;
+	margin: 1.5em 0;
+}
+.couponwheel_popup_rules_text {
+	margin: 1em 0;
+	font-size: .85em;
+}
+.couponwheel_coupon_code {
+	font-size: 1.5em;
+	font-family: monospace;
+}
+.couponwheel_recaptcha,
+.couponwheel_popup_checkbox_container,
+.couponwheel_form input[type=text],
+.couponwheel_form input[type=email],
+.couponwheel_stage1_submit_btn,
+.couponwheel_stage2_continue_btn {
+	font-family: inherit;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: .8em;
+	font-size: inherit;
+	border-radius: .3em;
+	padding: .7em;
+}
+.couponwheel_popup_checkbox_container {
+	margin-top: 1em;
+}
+.couponwheel_stage1_submit_btn,
+.couponwheel_stage2_continue_btn {
+	margin-top: 1.5em;
+}
+.couponwheel_popup_checkbox_container, .couponwheel_recaptcha {
+	padding: 0;
+}
+.couponwheel_popup_checkbox_container * {
+	vertical-align: middle;
+}
+.couponwheel_popup_checkbox_container input[type=checkbox] {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0;
+	margin-right: .5em;
+}
+.couponwheel_form input[type=submit] {
+	margin-top: 1em;
+}
+.couponwheel_popup_close_btn {
+	font-size: 2.2em;
+	display: inline-block;
+	cursor: pointer;
+}
+.couponwheel_popup_close_container {
+	text-align: right;
+}
+.couponwheel_wheel_crop {
+	overflow: hidden;
+	position: relative;
+	display: inline-table;
+	padding: 2px;
+	width: 86%;
+}
+.couponwheel_popup_wheel_container {
+	user-select: none;
+	padding: 1em 0;
+}
+.couponwheel_wheel {
+	position: relative;
+	color: black;
+	font-weight: bold;
+	font-size: 1.25em;
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	line-height: 0;
+}
+.couponwheel_wheel_img {
+	all: initial;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.couponwheel_slice_label {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 43%;
+	text-align: right;
+	font-size: .85em;
+	line-height: 1.2em;
+	transform-origin: 0 50%;
+	-webkit-transform-origin: 0% 50%;
+	color: rgb(40,40,40);
+}
+.couponwheel_slice_label:nth-of-type(even) {
+	color: white;
+}
+.couponwheel_popup_rules_checkbox_label {
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+}
+.couponwheel_popup_wheel_container {
+	position: relative;
+	left: -45%;
+	width: 130%;
+}
+.couponwheel_marker {
+	position: absolute;
+	width: 19.4%;
+	right: 0%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	z-index: 2000;
+}
+.couponwheel_hidden {
+	display: none;
+}
+.couponwheel_popup_header_image {
+	margin: 1.2em 0;
+	display: block;
+	width: auto;
+	height: auto;
+	min-height: 3em;
+	max-width: 100%;
+	max-height: 5em;
+	box-sizing: border-box;
+}
+
+.couponwheel_ajax_loader {
+	margin-top: 1em;
+	display: none;
+}
+.couponwheel_ajax_loader > div {
+	width: .5em;
+	height: .5em;
+	margin-right: .33em;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: couponwheel_sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: couponwheel_sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.couponwheel_ajax_loader div:nth-child(1) {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+.couponwheel_ajax_loader div:nth-child(2) {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+.couponwheel_manual_open {
+	position: fixed;
+	top: 50%;
+	left: .5em;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 99999;
+}
+.couponwheel_manual_open img {
+	width: 4em;
+}
+@-webkit-keyframes couponwheel_sk-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+@keyframes couponwheel_sk-bouncedelay {
+	0%, 80%, 100% { 
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	} 40% { 
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+.couponwheel_coupon_bar {
+	line-height: 1.2em;
+	background-color: #1b1b1b;
+	color: white;
+	font-size: 1.1em;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+}
+.couponwheel_coupon_bar p {
+	margin: .12em;
+	padding: .25em 0;
+}
+.couponwheel_offers_progressbar {
+	background-color: rgb(230,230,230);
+	margin-top: 1em;
+	padding: 1px;
+	border-radius: 2px;
+}
+.couponwheel_offers_progressbar div {
+	height: .66em;
+	border-radius: 2px;
+}
+.couponwheel_offers_text {
+	margin-top: .5em;
+	font-size: .8em;
+}
+
+.couponwheel_slice_label:nth-of-type(1) { transform: translateY(-50%) rotate(0deg); -webkit-transform: translateY(-50%) rotate(0deg); }
+.couponwheel_slice_label:nth-of-type(2) { transform: translateY(-50%) rotate(30deg); -webkit-transform: translateY(-50%) rotate(30deg); }
+.couponwheel_slice_label:nth-of-type(3) { transform: translateY(-50%) rotate(60deg); -webkit-transform: translateY(-50%) rotate(60deg); }
+.couponwheel_slice_label:nth-of-type(4) { transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) rotate(90deg); }
+.couponwheel_slice_label:nth-of-type(5) { transform: translateY(-50%) rotate(120deg); -webkit-transform: translateY(-50%) rotate(120deg); }
+.couponwheel_slice_label:nth-of-type(6) { transform: translateY(-50%) rotate(150deg); -webkit-transform: translateY(-50%) rotate(150deg); }
+.couponwheel_slice_label:nth-of-type(7) { transform: translateY(-50%) rotate(180deg); -webkit-transform: translateY(-50%) rotate(180deg); }
+.couponwheel_slice_label:nth-of-type(8) { transform: translateY(-50%) rotate(210deg); -webkit-transform: translateY(-50%) rotate(210deg); }
+.couponwheel_slice_label:nth-of-type(9) { transform: translateY(-50%) rotate(240deg); -webkit-transform: translateY(-50%) rotate(240deg); }
+.couponwheel_slice_label:nth-of-type(10) { transform: translateY(-50%) rotate(270deg); -webkit-transform: translateY(-50%) rotate(270deg); }
+.couponwheel_slice_label:nth-of-type(11) { transform: translateY(-50%) rotate(300deg); -webkit-transform: translateY(-50%) rotate(300deg); }
+.couponwheel_slice_label:nth-of-type(12) { transform: translateY(-50%) rotate(330deg); -webkit-transform: translateY(-50%) rotate(330deg); }
+
+#couponwheel_notice_content {
+	position: fixed;
+	bottom: 0;
+	top: auto;
+	left: 0;
+	right: 0;
+	padding: .6em;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	text-align: center;
+	z-index: 100000;
+	box-sizing: border-box;
+}
+#couponwheel_notice_content > span {
+	margin-right: .5em;
+}
+#couponwheel_notice_close_btn {
+	user-select: none;
+	cursor: pointer;
+	color: inherit;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 40em) {
+	.couponwheel_wheel {
+		font-size: 1.1em;
+	}
+	.couponwheel_form {
+		font-size: 1.08em;
+		padding: 0;
+		margin 0;
+		margin: 3em 1.5em;
+		margin-right: 3em;
+	}
+	.couponwheel_popup {
+		overflow: visible;
+	}
+	.couponwheel_popup_form_container {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		max-width: 50%;
+		overflow-y: auto;
+	}
+	.couponwheel_popup_wheel_container {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		max-width: 50%;
+		overflow: hidden;
+	}
+	.couponwheel_wheel_container {
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		position: absolute;
+		left: -42%;
+		width: 144%;
+	}
+	.couponwheel_popup_background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.couponwheel_slice_label {
+		font-size: 1.2em;
+	}
+	.couponwheel_popup_heading_text {
+		margin-top: 3em;
+	}
+}

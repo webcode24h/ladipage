@@ -1,0 +1,43 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 31 Jul 2022 18:54:06 at https://builder.simplepage.vn/abbank-ditizen/ https://builder.simplepage.vn/vaytinchap-vn/ https://builder.simplepage.vn/cungmuabaohiem-com/ https://builder.simplepage.vn/htc-finance/ https://builder.simplepage.vn/dauttu/ https://builder.simplepage.vn/hen-network/ https://builder.simplepage.vn/mau-ldp-chung-khoan-01/ https://builder.simplepage.vn/mau-ldp-tai-chinh-008/ https://builder.simplepage.vn/mau-ldp-bao-hiem-07 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN4%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  -%l "en, *" https://builder.simplepage.vn/abbank-ditizen/ https://builder.simplepage.vn/vaytinchap-vn/ https://builder.simplepage.vn/cungmuabaohiem-com/ https://builder.simplepage.vn/htc-finance/ https://builder.simplepage.vn/dauttu/ https://builder.simplepage.vn/hen-network/ https://builder.simplepage.vn/mau-ldp-chung-khoan-01/ https://builder.simplepage.vn/mau-ldp-tai-chinh-008/ https://builder.simplepage.vn/mau-ldp-bao-hiem-07 -O1 "C:\Users\Chinhdayroi\Desktop\ladipage\tai-chinh" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:54:33	Warning: 	Note: due to https://builder.simplepage.vn remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+18:55:51	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=106320
+18:55:51	Warning: 	File has moved from https://builder.simplepage.vn/?p=106320 to https://builder.simplepage.vn/abbank-ditizen/
+18:55:51	Warning: 	Moved Permanently for https://builder.simplepage.vn/
+18:55:51	Warning: 	File has moved from https://builder.simplepage.vn/ to https://biopage.vn
+18:55:52	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=159847
+18:55:52	Warning: 	File has moved from https://builder.simplepage.vn/?p=159847 to https://builder.simplepage.vn/vaytinchap-vn/
+18:55:52	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/03/vay-tiá»n-nhanh-trong-ngÃ y-1.png (from https://builder.simplepage.vn/vaytinchap-vn/)
+18:55:52	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/03/vay-tiá»n-online-nhanh.png (from https://builder.simplepage.vn/vaytinchap-vn/)
+18:55:52	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/03/vay-tiá»n-online.png (from https://builder.simplepage.vn/vaytinchap-vn/)
+18:55:52	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/03/vay-online-trong-ngÃ y.png (from https://builder.simplepage.vn/vaytinchap-vn/)
+18:55:52	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/03/vay-tiá»n-gáº¥p.png (from https://builder.simplepage.vn/vaytinchap-vn/)
+18:55:53	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=186405
+18:55:53	Warning: 	File has moved from https://builder.simplepage.vn/?p=186405 to https://builder.simplepage.vn/cungmuabaohiem-com/
+18:55:54	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=210371
+18:55:54	Warning: 	File has moved from https://builder.simplepage.vn/?p=210371 to https://builder.simplepage.vn/htc-finance/
+18:55:56	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/09/Logo-MHG202199.png (from https://builder.simplepage.vn/dauttu/)
+18:55:56	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=362018
+18:55:56	Warning: 	File has moved from https://builder.simplepage.vn/?p=362018 to https://builder.simplepage.vn/dauttu/
+18:55:57	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=349689
+18:55:57	Warning: 	File has moved from https://builder.simplepage.vn/?p=349689 to https://builder.simplepage.vn/hen-network/
+18:55:58	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=115121
+18:55:58	Warning: 	File has moved from https://builder.simplepage.vn/?p=115121 to https://builder.simplepage.vn/mau-ldp-chung-khoan-01/
+18:55:59	Error: 	"Not Found" (404) at link https://simpleweb.vn/wp-content/uploads/2021/11/logo-shinhan-bank.png (from https://builder.simplepage.vn/mau-ldp-tai-chinh-008/)
+18:55:59	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=512711
+18:55:59	Warning: 	File has moved from https://builder.simplepage.vn/?p=512711 to https://builder.simplepage.vn/mau-ldp-tai-chinh-008/
+18:56:01	Warning: 	Moved Permanently for https://builder.simplepage.vn/?p=534256
+18:56:01	Warning: 	File has moved from https://builder.simplepage.vn/?p=534256 to https://builder.simplepage.vn/mau-ldp-bao-hiem-07/
+18:56:01	Error: 	"Not Found" (404) at link https://builder.simplepage.vn/wp-content/plugins/bdthemes-element-pack/images/backgrounds/divider-icon.svg (from https://builder.simplepage.vn/wp-content/cache/min/1/16df036a1936969300861afad2369a82.css)
+18:56:01	Error: 	"Not Found" (404) at link https://builder.simplepage.vn/wp-content/plugins/bdthemes-element-pack/images/backgrounds/list-bullet.svg (from https://builder.simplepage.vn/wp-content/cache/min/1/16df036a1936969300861afad2369a82.css)
+18:56:01	Error: 	"Not Found" (404) at link https://builder.simplepage.vn/wp-content/plugins/bdthemes-element-pack/images/backgrounds/form-datalist.svg (from https://builder.simplepage.vn/wp-content/cache/min/1/16df036a1936969300861afad2369a82.css)
+18:56:01	Error: 	"Not Found" (404) at link https://simpleweb.cdn.vccloud.vn/wp-content/uploads/2021/02/Thiáº¿t-káº¿-khÃ´ng-tÃªn-34.png (from https://builder.simplepage.vn/wp-content/cache/min/1/f1eeb56048bf39df95d97961fa1bf27e.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 55 seconds : 265 links scanned, 243 files written (52959974 bytes overall) [38924070 bytes received at 338470 bytes/sec], 18363180 bytes transferred using HTTP compression in 63 files, ratio 22%, 6.3 requests per connection
+(11 errors, 21 warnings, 0 messages)
